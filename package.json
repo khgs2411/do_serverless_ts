@@ -9,9 +9,7 @@
 		"publish": "bun run build && bun run deploy",
 		"new": "docts fn new",
 		"remove": "docts fn remove",
-		"destroy": "doctl serverless undeploy",
-		"push:env": "bunx dotenv-vault@latest push",
-		"pull:env": "bunx dotenv-vault@latest pull"
+		"destroy": "doctl serverless undeploy"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
