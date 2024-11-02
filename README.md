@@ -11,7 +11,7 @@ This project is a boilerplate for creating Digital Ocean Functions and deploying
 -   Create the following environment variables:
     -   `DOCTL_NAMESPACE`: Your Digital Ocean serverless namespace.
 -   Go to your GitHub repository and create a secret for this project:
-    -   `GITHUB_SECRET_KEY`: Your Digital Ocean API key.
+    -   `secrets.YOUR_SECRET_KEY`: Your Digital Ocean API key as a Github Actions variable.
 
 2. **Disconnect from the Origin Repository**:
 
